@@ -3,15 +3,15 @@
  * swap_int - swamps the values of two integers
  * @a: pointer value of a int
  * @b: pointer value of b int
- * @c: pointer value of c int
+ * @p: pointer value of p
  * Return:Always zero
  */
 
 void swap_int(int *a, int *b)
 {
-	int *c;
+	int p;
 
-	*c = *a;
+	p = *a;
 	*a = *b;
-	*b = *c;
+	*b = p;
 }
