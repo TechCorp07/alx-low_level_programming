@@ -3,7 +3,6 @@
  * swap_int - swamps the values of two integers
  * @a: pointer value of a int
  * @b: pointer value of b int
- * @p: pointer value of p
  * Return:Always zero
  */
 
