@@ -3,8 +3,7 @@
 /**
  * _puts - prints a string
  * @str: pointer string variable
- * @i: integer variable
- * Return: Always run zero
+ * Return: void
  */
 
 void _puts(char *str)
