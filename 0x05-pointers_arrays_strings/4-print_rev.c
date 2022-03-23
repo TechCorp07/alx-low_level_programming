@@ -1,8 +1,8 @@
-# include "main.h"
+#include "main.h"
 
 /**
- * print_rev - prints reverse string
- * @s: pointer char
+ * print_rev - prints string backwards
+ * @s: string
  * Return: void
  */
 
@@ -15,7 +15,7 @@ void print_rev(char *s)
 		i++;
 	}
 	i--;
-	while (i >= '0')
+	while (i >= 0)
 	{
 		_putchar(s[i]);
 		i--;
