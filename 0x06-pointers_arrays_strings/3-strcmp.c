@@ -9,18 +9,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int sig;
-
 	while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
 	{
 		s1++;
 		s2++;
 	}
 	if (*s1 < *s2)
-		sig = -15;
-	else if (*s1 > *s2)
-		sig = 15;
+		return (*s1 - *s2);
+	else if (*s2 < *s1)
+		return (*s1 - *s2);
 	else
-		sig = 0;
-	return (sig);
+		return (0);
 }
