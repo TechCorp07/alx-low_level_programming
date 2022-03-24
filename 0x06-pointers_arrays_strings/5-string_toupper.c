@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - changes from lower to upper case
- *
+ * @n: char pointer
  * Return: always zero
  */
 
@@ -13,9 +13,9 @@ char *string_toupper(char *n)
 	while (*(n + i) != '\0')
 	{
 		if ((*(n + i) >= 97) && (*(n + i) <= 122 ))
-			*(s + i) -= 32;
+			*(n + i) -= 32;
 		i++;
 	}
 
-	return (s);
+	return (n);
 }
