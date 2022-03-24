@@ -12,7 +12,7 @@ char *string_toupper(char *n)
 
 	while (*(n + i) != '\0')
 	{
-		if ((*(n + i) >= 97) && (*(n + i) <= 122 ))
+		if ((*(n + i) >= 97) && (*(n + i) <= 122))
 			*(n + i) -= 32;
 		i++;
 	}
